@@ -1,0 +1,466 @@
+/*
+  Hébergement & Populaire - Desktop.
+*/
+
+.S-HébPop {
+  display: flex;
+  box-sizing: border-box;
+
+  width: 97%;
+  font-size: 1rem;
+
+  padding-left: 3%;
+  margin: 0px auto;
+}
+
+.S-Héb {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+
+  width: 70%;
+  height: 520px;
+
+  font-size: 1rem;
+
+  border-radius: 15px 15px 15px 15px;
+  background-color: #F2F2F2;
+
+  margin-left: -1.5%;
+  padding-top: 20px;
+}
+
+.S-Héb-Bt {
+  display: flex;
+  height: 60px;
+}
+
+.S-Héb-Bt-Tit {
+  font-weight: bolder;
+  font-size: 1.2em;
+
+  margin-top: 2%;
+  margin-left: 3%;
+}
+
+.S-Héb-Plus {
+  width: 0px;
+  height: 0px;
+
+  text-decoration: none;
+  margin-left: 3%;
+}
+
+.S-Héb-Plus-Tit {
+  width: 200px;
+  height: 10px;
+
+  font-size: 0.95em;
+  font-weight: bolder;
+  color: black;
+
+  margin-top: 30px;
+}
+
+.S-Héb-Plus-Tit:hover {
+  color: #0065FC;
+}
+
+.S-Héb-Lig01,
+.S-Héb-Lig02 {
+  display: flex;
+  flex-wrap: nowrap;
+  box-sizing: border-box;
+
+  width: 98%;
+  height: 170px;
+
+  font-size: 0.7rem;
+
+  margin: 0px auto;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.S-Héb-Lig02 {
+  margin-top: 21px;
+}
+
+.S-Héb-Lig01-Img01-Jpg {
+  display: flex;
+  box-sizing: border-box;
+
+  width: 100%;
+  height: auto;
+
+  margin-top: -23px;
+  margin-bottom: -23px;
+
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.S-Héb-Lig01-Img02-Jpg {
+  display: flex;
+  box-sizing: border-box;
+
+  width: 100%;
+  height: auto;
+
+  margin-top: -24px;
+  margin-bottom: -22px;
+
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.S-Héb-Lig01-Img03-Jpg {
+  display: flex;
+  box-sizing: border-box;
+
+  width: 100%;
+  height: auto;
+
+  margin-top: -23px;
+  margin-bottom: -23px;
+
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.S-Héb-Lig02-Img01-Jpg {
+  display: flex;
+  box-sizing: border-box;
+
+  width: 100%;
+  height: auto;
+
+  margin-top: -42px;
+  margin-bottom: -46px;
+
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.S-Héb-Lig02-Img02-Jpg {
+  display: flex;
+  box-sizing: border-box;
+
+  width: 100%;
+  height: auto;
+  font-size: 1em;
+
+  margin-top: -10px;
+  margin-bottom: -12px;
+
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.S-Héb-Lig02-Img03-Jpg {
+  display: flex;
+  box-sizing: border-box;
+
+  width: 100%;
+  height: auto;
+  font-size: 1em;
+
+  margin-top: -120px;
+  margin-bottom: -118px;
+
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.S-Héb-Lig-Img {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+
+  width: 60%;
+  height: 100%;
+
+  font-size: 0.6em;
+
+  background-color: white;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0px 0px 8px rgba(92, 89, 89, 0.39);
+
+  margin-top: 0px;
+  margin-left: 3%;
+
+  text-decoration: none;
+}
+
+.S-Héb-Lig-Img-Cat {
+  display: flex;
+  box-sizing: border-box;
+
+  object-fit: none;
+  overflow: hidden;
+
+  background-color: white;
+
+  width: 95%;
+  height: 100px;
+
+  font-size: 1.2em;
+
+  border-radius: 15px 15px 0px 0px;
+
+  margin-left: 5px;
+  margin-right: 5px;
+
+  margin-top: 5px;
+  margin-bottom: -6px;
+}
+
+.S-Héb-Img-bas {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+
+  width: 80%;
+  height: auto;
+
+  font-size: 1rem;
+
+  margin-top: 10px;
+  margin-left: 6%;
+
+  padding-bottom: 5px;
+}
+
+.S-Héb-Lig-Img-Tit {
+  color: black;
+  font-weight: bold;
+
+  width: 116%;
+  font-size: 0.9em;
+
+  margin-top: 2px;
+}
+
+.S-Héb-Lig-Img-Prx {
+  color: black;
+  font-size: 0.7em;
+
+  margin-top: -15px;
+}
+
+.S-Héb-Lig-Img-Ico {
+  display: flex;
+  margin-top: -11px;
+}
+
+.S-Héb-IcoBlue {
+  color: #0065FC;
+  font-size: 0.6em;
+}
+
+.S-Héb-IcoGrey {
+  color: #F2F2F2;
+  font-size: 0.6em;
+}
+
+.S-Héb-Lig-Img:hover {
+  background-color: #DEEBFF;
+  box-shadow: 0px 0px 8px #0065FC;
+}
+
+/*
+  Populaires
+*/
+
+.S-Pop {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+
+  width: 35%;
+  height: 520px;
+  font-size: 1em;
+
+  border-radius: 15px 15px 15px 15px;
+  background-color: #F2F2F2;
+
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-top: 20px;
+}
+
+.S-Pop-TitIco {
+  display: inline-flex;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.S-Pop-Tit {
+  font-weight: bolder;
+
+  width: 220px;
+  font-size: 1.2em;
+
+  margin-top: 4%;
+  margin-left: 9%;
+}
+
+.S-Pop-Ico {
+  color: black;
+  font-size: 1.2rem;
+
+  margin-top: 4%;
+  margin-left: auto;
+  margin-right: 2%;
+}
+
+.S-Pop-Img {
+  display: flex;
+  box-sizing: border-box;
+
+  width: 80%;
+  height: 120px;
+
+  background-color: white;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0px 0px 8px rgba(92, 89, 89, 0.39);
+
+  margin-top: 0px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  text-decoration: none;
+}
+
+.S-Pop-Img-Margin {
+  margin-top: 22px;
+}
+
+.S-Pop-Img-Cat {
+  display: flex;
+  box-sizing: border-box;
+
+  object-fit: none;
+  overflow: hidden;
+
+  background-color: white;
+
+  width: 35%;
+  height: 110px;
+
+  border-radius: 15px 0px 0px 15px;
+
+  margin-left: 5px;
+  margin-right: 5px;
+
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+/*j- modif */
+.S-Pop-Img-Cat-02 {
+  display: flex;
+  box-sizing: border-box;
+
+  object-fit: none;
+  overflow: hidden;
+
+  width: 35%;
+}
+
+.S-Pop-Img01-Jpg {
+  display: flex;
+  box-sizing: border-box;
+
+  width: 390px;
+  height: auto;
+
+  margin-top: -5px;
+  margin-bottom: -0px;
+
+  margin-left: -40px;
+  margin-right: -40px;
+}
+
+.S-Pop-Img02-Jpg {
+  display: flex;
+  box-sizing: border-box;
+
+  width: 200%;
+  height: auto;
+
+  margin-top: -5px;
+  margin-bottom: -5px;
+
+  margin-left: -30px;
+  margin-right: -30px;
+}
+
+.S-Pop-Img03-Jpg {
+  display: flex;
+  box-sizing: border-box;
+
+  width: 100%;
+  height: auto;
+
+  margin-top: -34px;
+  margin-bottom: -35px;
+
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.S-Pop-Img-Droite {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+
+  width: 52%;
+
+  margin-left: 10px;
+}
+
+.S-Pop-Img-Tit {
+  color: black;
+  font-weight: bold;
+
+  width: 100%;
+  width: 90%;
+
+  height: 40px;
+
+  font-size: 0.9em;
+}
+
+.S-Pop-Img-Prx {
+  color: black;
+
+  height: 30px;
+  font-size: 0.7em;
+
+  margin-top: -15px;
+}
+
+.S-Pop-Img-Ico {
+  display: flex;
+
+  height: 30px;
+
+  margin-top: -0px;
+}
+
+.S-Pop-IcoBlue {
+  color: #0065FC;
+  font-size: 0.58em;
+}
+
+.S-Pop-IcoGrey {
+  color: #F2F2F2;
+  font-size: 0.58em;
+}
+
+.S-Pop-Img:hover {
+  background-color: #DEEBFF;
+  box-shadow: 0px 0px 8px #0065FC;
+}

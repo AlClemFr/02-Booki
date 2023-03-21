@@ -1,0 +1,15 @@
+/*
+  Header & Navigation - Tablette.
+  Ecran Tablette supérieur à 768 px et
+  inférieur à 992px.
+*/
+
+.H-Header {
+  width: 100%;
+}
+
+.N-Nav {
+  width: 100%;
+  margin-left: 44%;
+  margin-right: 0%;
+}

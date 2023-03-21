@@ -1,0 +1,213 @@
+/*
+  Filtres - Phone.
+  Ecran de smartfone inférieur à 768px.
+*/
+
+.main {
+  width: 412px;
+}
+
+.S-Filt {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+
+  width: 370px;
+
+  margin-top: 150px;
+  margin-left: 5%;
+}
+
+.S-Filt-Tit {
+  font-weight: bolder;
+
+  width: 300px;
+  text-align: left;
+
+  font-size: 135%;
+
+  margin-top: 6px;
+}
+
+.S-Filt-Tex {
+  width: 100%;
+  font-weight: 2;
+
+  font-size: 106%;
+
+  margin-top: 14px;
+}
+
+.S-Filt-Rech-Tex {
+  display: none;
+}
+
+.S-Filt-Rech-Loup {
+  display: flex;
+  box-sizing: border-box;
+
+  width: 51px;
+  height: 51px;
+
+  border-radius: 15px 15px 15px 15px;
+
+  /*couleur gris clair*/
+  color: white;
+  background-color: #0065FC;
+
+  /*agrandissement & réduction icone*/
+  font-size: 1.2em;
+
+  margin-left: -12px;
+  margin-top: 0px;
+
+  padding: 0.8em 1.0em;
+  padding-left: 15px;
+}
+
+.S-Filt-Filt {
+  display: flex;
+  flex-direction: column;
+
+  font-weight: bolder;
+
+  width: 240px;
+  height: 50px;
+
+  margin-top: -30px;
+  margin-bottom: 5px;
+  margin-left: 55px;
+}
+
+.S-Filt-Rech {
+  width: 360px;
+}
+
+.S-Filt-Filt-Tex {
+  font-weight: bolder;
+  font-size: 110%;
+
+  margin-top: 14px;
+  margin-left: -56px;
+}
+
+/*j- rajout  */
+.S-Filt-Filt-Total {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+
+  width: 50%;
+
+  margin-left: -4px;
+  margin-top: -0px;
+}
+
+.S-Filt-Filt-EcoFam {
+  font-weight: bolder;
+  width: 300px;
+
+  margin-top: 14px;
+  margin-left: 2px;
+}
+
+.S-Filt-Filt-Eco {
+  width: 180px;
+  margin-left: -45px;
+}
+
+.S-Filt-Filt-Fam {
+  width: 128px;
+  margin-left: 10%;
+}
+
+.S-Filt-Filt-Fam-Ico {
+  margin-left: -20px;
+}
+
+.S-Filt-Filt-RomAni {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+
+  margin-top: 50px;
+  margin-left: -384px;
+}
+
+.S-Filt-Filt-Rom {
+  margin-top: 28px;
+  margin-left: 68px;
+}
+
+.S-Filt-Filt-Ani {
+  margin-top: 14px;
+  margin-left: 68px;
+  width: auto;
+}
+
+.S-Filt-Info {
+  display: inline-flex;
+  box-sizing: border-box;
+
+  width: 100%;
+
+  color: black;
+
+  font-size: 1.0em;
+
+  margin-top: 200px;
+  margin-left: 0px;
+}
+
+.S-Filt-Info-Ico {
+  display: inline-block;
+  box-sizing: border-box;
+
+  background-color: white;
+
+  width: 20px;
+  height: 20px;
+
+  text-align: center;
+
+  border-radius: 50px;
+  border: 1px solid rgba(136, 136, 136, 0.331);
+
+  /*couleur Icone bleu foncé*/
+  color: #0065FC;
+
+  /*agrandissement & réduction*/
+  font-size: 0.9em;
+
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-top: 2px;
+
+  padding-top: 0px;
+}
+
+.S-Filt-Filt-Ani-Tex {
+  display: inline-block;
+
+  color: black;
+
+  font-size: 1.0em;
+
+  margin-left: -7px;
+
+  padding: 0.5em 0.5em;
+}
+
+.S-Filt-Info-Tex {
+  width: 100%;
+  font-size: 0.5em;
+
+  color: black;
+
+  font-size: 4.5mm;
+  font-weight: 400;
+
+  margin-top: -7px;
+
+  padding: 0.5em 0.5em;
+}

@@ -1,0 +1,83 @@
+/*
+  Filtres - Tablette.
+  Ecran Tablette supérieur à 768 px
+  et inférieur à 992px.
+*/
+
+.S-Filt {
+  width: 100%;
+
+  margin-top: -20px;
+
+  margin-left: 2%;
+}
+
+.S-Filt-Filt {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  font-weight: bolder;
+
+  width: 95%;
+  height: auto;
+
+  margin-left: 0px;
+  margin-top: -30px;
+  margin-bottom: 0px;
+}
+
+.S-Filt-Filt-Tex {
+  font-weight: bolder;
+  font-size: 110%;
+
+  margin-top: 15px;
+  margin-left: 0px;
+}
+
+/*j- rajout  */
+.S-Filt-Filt-Total {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+
+  width: 100%;
+
+  margin-left: 0px;
+  margin-top: -0px;
+}
+
+.S-Filt-Filt-EcoFam {
+  margin-top: 0px;
+  margin-left: 90px;
+  margin-top: -15px;
+}
+
+.S-Filt-Filt-Fam-inh {
+  margin-left: 2%;
+}
+
+.S-Filt-Filt-RomAni {
+  display: flex;
+  box-sizing: border-box;
+
+  width: 450px;
+
+  margin-top: -15px;
+  margin-left: 25px;
+  margin-left: 2%;
+
+}
+
+.S-Filt-Filt-Ani {
+  margin-left: 42px;
+  margin-left: 2%;
+}
+
+.S-Filt-Info {
+  width: 100%;
+}
+
+.S-Filt-Rech-Loup {
+  display: none;
+}

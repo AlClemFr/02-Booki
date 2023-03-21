@@ -1,0 +1,34 @@
+/*
+  Footer - Tablette.
+  Ecran Tablette supérieur à 768 px et
+  inférieur à 992px.
+*/
+
+.F-Footer {
+  display: flex;
+  box-sizing: border-box;
+
+  width: 100%;
+  height: 150px;
+  
+  background-color: #F2F2F2;
+
+  margin-left: 0px;
+  padding-top: 0px;
+  margin-top: 20px;
+}
+
+.F-Pro {
+  width: 100%;
+  height: 150px;
+
+  margin-left: 20px;
+}
+
+.F-Nos,
+.F-Ass {
+  width: 100%;
+  height: 150px;
+
+  margin-left: 50px;
+}

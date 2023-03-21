@@ -1,0 +1,193 @@
+/*
+  Hébergement & Populaire - Phone.
+  Ecran de smartfone inférieur à 768px.
+*/
+
+.main {
+  width: 370px;
+}
+
+.S-HébPop {
+  display: flex;
+  flex-direction: column-reverse;
+
+  width: 100%;
+
+  padding-left: 0%;
+  margin-left: 2%;
+}
+
+.S-Héb {
+  width: 370px;
+  border-radius: 0px 0px 0px 0px;
+
+  background-color: white;
+
+  padding-left: 0%;
+  margin-left: 0%;
+}
+
+.S-Héb-Bt {
+  display: flex;
+
+  width: 370px;
+  height: 80px;
+}
+
+.S-Héb-Bt-Tit {
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+.S-Héb-Plus {
+  margin-left: 5%;
+}
+
+.S-Héb-Plus-Tit {
+  margin-left: 0%;
+  margin-top: 40px;
+}
+
+/* 
+  hébergements 
+*/
+
+.S-Héb-Lig01 {
+  flex-direction: column;
+
+  margin-top: -20px;
+  margin-left: 0%;
+
+  height: 615px;
+}
+
+.S-Héb-Lig01-Img01-Jpg,
+.S-Héb-Lig01-Img02-Jpg,
+.S-Héb-Lig01-Img03-Jpg {
+  width: 340px;
+
+  margin-top: -47px;
+  margin-bottom: -46px;
+
+  margin-left: -10px;
+  margin-right: 0px;
+}
+
+.S-Héb-Lig01-Img02,
+.S-Héb-Lig01-Img03 {
+  margin-top: 20px;
+}
+
+.S-Héb-Lig02 {
+  flex-direction: column;
+
+  margin-top: 0px;
+  margin-left: 0px;
+
+  height: 615px;
+}
+
+.S-Héb-Lig02-Img01-Jpg {
+  width: 340px;
+
+  margin-top: -90px;
+  margin-bottom: -90px;
+
+  margin-left: -10px;
+  margin-right: 0px;
+}
+
+.S-Héb-Lig02-Img02-Jpg {
+  width: 340px;
+
+  margin-top: -40px;
+  margin-bottom: -40px;
+
+  margin-left: -10px;
+  margin-right: 0px;
+}
+
+.S-Héb-Lig02-Img03-Jpg {
+  width: 340px;
+
+  margin-top: -160px;
+  margin-bottom: -160px;
+
+  margin-left: -3px;
+  margin-right: 0px;
+}
+
+.S-Héb-Lig-Img {
+  width: 335px;
+  height: 185px;
+
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.S-Héb-Lig-Img-Cat {
+  width: 325px;
+  height: 112px;
+}
+
+.S-Héb-Lig02-Img02,
+.S-Héb-Lig02-Img03 {
+  margin-top: 20px;
+}
+
+.S-Héb-Img-bas {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+
+  width: 325px;
+  height: 50px;
+}
+
+/*
+  Populaires
+*/
+
+.S-Pop {
+  width: 390px;
+  height: 540px;
+
+  border-radius: 0px 0px 0px 0px;
+
+  background-color: #F2F2F2;
+
+  margin-left: 0%;
+  padding-left: 0px;
+}
+
+.S-Pop-TitIco {
+  display: inline-flex;
+  box-sizing: border-box;
+
+  height: 60px;
+}
+
+.S-Pop-Tit {
+  width: 300px;
+
+  font-size: 140%;
+  font-weight: bolder;
+
+  margin-left: 20px;
+  padding-top: 0px;
+}
+
+.S-Pop-Ico {
+  color: black;
+  font-size: 1.3em;
+
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.S-Pop-Img {
+  width: 334px;
+
+  margin-left: 20px;
+  margin-top: 20px;
+}

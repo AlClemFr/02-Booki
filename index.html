@@ -1,0 +1,593 @@
+<!--
+    Html - Desktop 
+-->
+
+<!DOCTYPE html>
+<html lang="fr" class="hhtml">
+
+<head>
+  <!--                                                                  
+      UTF-8 = codage le plus utilisé dans les systèmes GNU/Linux et    
+      compatibles pour gérer le plus simplement possible des textes et 
+      leurs traductions dans tous les systèmes                         
+      d'écritures et tous les alphabets du monde.                      
+      Titre de l'onglet.                                               
+      Mettre le fichier styles à utiliser.                             
+  -->
+  <meta charset="utf-8">
+
+  <!-- Pour s'adapter au Phone & tablette -->
+  <meta name="viewport" content="initial-scale=1">
+
+  <!-- Titre de l'onglet -->
+  <title>Booki</title>
+  <!-- Icone dans le titre de l'onglet -->
+  <link rel="shortcut icon" href="100-Images/logo/Booki@3x.png">
+
+  <!-- Permet d'intégrée la font Raleway au code -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"
+    rel="stylesheet">
+
+  <!-- Permet d'intégrée les Icônes FontAwesone dans ce code -->
+  <script src="https://kit.fontawesome.com/789857a2b3.js"
+    crossorigin="anonymous">
+    </script>
+
+  <!-- Appel Ccs pour DeskTop -->
+  <link rel="stylesheet" href="200-Ccs/080-Body-Desk.css">
+  <link rel="stylesheet" href="200-Ccs/100-Header&Nav-Desk.css">
+  <link rel="stylesheet" href="200-Ccs/200-Filtre-Desk.css">
+  <link rel="stylesheet" href="200-Ccs/300-Héb&Pop-Desk.css">
+  <link rel="stylesheet" href="200-Ccs/400-Activitée-Desk.css">
+  <link rel="stylesheet" href="200-Ccs/900-Footer-Desk.css">
+
+  <!-- Appel Ccs pour Tablette  -->
+  <link rel="stylesheet"
+    media="all and (min-width: 769px) and (max-width: 992px)"
+    href="200-Ccs/110-Header&Nav-Tab.css">
+  <link rel="stylesheet"
+    media="all and (min-width: 769px) and (max-width: 992px)"
+    href="200-Ccs/210-Filtre-Tab.css">
+  <link rel="stylesheet"
+    media="all and (min-width: 769px) and (max-width: 992px)"
+    href="200-Ccs/310-Héb&Pop-Tab.css">
+  <link rel="stylesheet"
+    media="all and (min-width: 769px) and (max-width: 992px)"
+    href="200-Ccs/410-Activitée-Tab.css">
+  <link rel="stylesheet"
+    media="all and (min-width: 769px) and (max-width: 992px)"
+    href="200-Ccs/910-Footer-Tab.css">
+
+  <!-- Appel Ccs pour Phone  -->
+  <link rel="stylesheet" media="all and (max-width: 768px)"
+    href="200-Ccs/120-Header&Nav-Phone.css">
+  <link rel="stylesheet" media="all and (max-width: 768px)"
+    href="200-Ccs/220-Filtre-Phone.css">
+  <link rel="stylesheet" media="all and (max-width: 768px)"
+    href="200-Ccs/320-Héb&Pop-Phone.css">
+  <link rel="stylesheet" media="all and (max-width: 768px)"
+    href="200-Ccs/420-Activitée-Phone.css">
+  <link rel="stylesheet" media="all and (max-width: 768px)"
+    href="200-Ccs/920-Footer-Phone.css">
+
+</head>
+
+<body>
+
+  <!--  Header - 
+        Logo & Navigation
+  -->
+  <header class="H-Header">
+    <a class="H-Logo" href="100-Images/logo/Booki@3x.png" target="_blank">
+      <img class="H-logo-Img" src="100-Images/logo/Booki.png" alt="Logo Booki"
+        title="Cliquez pour agrandir">
+    </a>
+
+    <nav class="N-Nav">
+      <a class="N-HébPop" href="#S-HébPop-Ancre" title="Hébergements"
+        target="_blank">
+        <p class="Pas-Ret-Lg">Hébergements</p>
+      </a>
+
+      <a class="N-Act" href="#S-Act-Ancre" title="Activités" target="_blank">
+        <p class="Pas-Ret-Lg">Activités</p>
+      </a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Section Filtres
+    -->
+    <div class="S-Filt">
+
+      <div class="S-Filt-Tit">
+        Trouvez votre hébergement pour des vacances de rêve
+      </div>
+
+      <div class="S-Filt-Tex">
+        En plein centre ville ou en pleine nature
+      </div>
+
+      <div class=S-Filt-Rech>
+        <div class="S-Filt-Rech-Ico">
+          <i class="fa-solid fa-location-dot"></i>
+        </div>
+
+        <div class="S-Filt-Rech-Box">
+          <form>
+            <input class="S-Filt-Rech-Inp" type="text" name="localisation"
+              id="localisation" placeholder="Ex : Marseille,france" size="15"
+              maxlength="20">
+          </form>
+        </div>
+
+        <a class="S-Filt-Rech-Lien" href="#">
+
+          <div class="S-Filt-Rech-Tex">
+            Rechercher
+          </div>
+
+          <div class="S-Filt-Rech-Loup">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </a>
+      </div>
+
+      <!-- filtre economique / familial / Romantique / Animaux  
+      -->
+      <div class=S-Filt-Filt>
+        <div class=S-Filt-Filt-Tex>
+          Filtres
+        </div>
+
+        <div class="S-Filt-Filt-Total">
+          <div class=S-Filt-Filt-EcoFam>
+            <!-- Economique
+            -->
+            <div class="S-Filt-Filt-Eco">
+
+              <a class="S-Filt-Filt-Eco-Lien" href="#">
+
+                <div class="S-Filt-Filt-Eco-Ico">
+                  <i class="fa-solid fa-money-bill-wave">
+                  </i>
+                </div>
+                <div class="S-Filt-Filt-Eco-Tex">
+                  Economique
+                </div>
+              </a>
+            </div>
+
+            <!-- Familial 
+            -->
+            <div class="S-Filt-Filt-Fam">
+              <a class="S-Filt-Filt-Fam-Lien" href="#">
+
+                <div class="S-Filt-Filt-Fam-Ico">
+                  <i class="fa-solid fa-child-reaching">
+                  </i>
+                </div>
+
+                <div class="S-Filt-Filt-Fam-Tex">
+                  Familial
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="S-Filt-Filt-RomAni">
+            <!-- Romantique 
+            -->
+            <div class="S-Filt-Filt-Rom">
+              <a class="S-Filt-Filt-Rom-Lien" href="#">
+                <div class="S-Filt-Filt-Rom-Ico">
+                  <i class="fa-solid fa-heart">
+                  </i>
+                </div>
+                <div class="S-Filt-Filt-Rom-Tex">
+                  Romantique
+                </div>
+              </a>
+            </div>
+
+            <div class="S-Filt-Filt-Ani">
+              <a class="S-Filt-Filt-Ani-Lien" href="#">
+                <div class="S-Filt-Filt-Ani-Ico">
+                  <i class="fa-solid fa-dog">
+                  </i>
+                </div>
+                <div class="S-Filt-Filt-Ani-Tex">
+                  Animaux autorisés
+                </div>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="S-Filt-Info">
+        <div class="S-Filt-Info-Ico">
+          <i class="fa-solid fa-info">
+          </i>
+        </div>
+        <div class="S-Filt-Info-Tex">
+          Plus de 500 logements sont disponibles dans cette ville
+        </div>
+      </div>
+    </div>
+
+    <!-- Section Hébergements & Les plus populaires
+    -->
+    <section id="S-HébPop-Ancre" class="S-HébPop">
+      <div class="S-Héb">
+        <div class="S-Héb-Bt">
+          <h5 class="S-Héb-Bt-Tit">
+            Hébergement à Marseille
+          </h5>
+        </div>
+
+        <div class="S-Héb-Lig01Lig02">
+          <div class="S-Héb-Lig01">
+
+            <a href="#" class="S-Héb-Lig-Img">
+
+              <div class="S-Héb-Lig-Img-Cat">
+                <img class="S-Héb-Lig01-Img01-Jpg"
+                  src="100-Images/hebergements/4-small/221-Auberge-La-Cannebière.jpg"
+                  alt="chambre de l'Auberge La Cannebière">
+              </div>
+
+              <div class="S-Héb-Img-bas">
+                <h4 class=S-Héb-Lig-Img-Tit>Auberge La Cannebière</h4>
+                <h5 class="S-Héb-Lig-Img-Prx">Nuit à partir de 25€</h5>
+
+                <div class="S-Héb-Lig-Img-Ico">
+                  <i class="S-Héb-IcoBlue fa-solid fa-star"></i>
+                  <i class="S-Héb-IcoBlue fa-solid fa-star"></i>
+                  <i class="S-Héb-IcoBlue fa-solid fa-star"></i>
+                  <i class="S-Héb-IcoBlue fa-solid fa-star"></i>
+                  <i class="S-Héb-IcoGrey fa-solid fa-star"></i>
+                </div>
+              </div>
+
+            </a>
+
+            <a href="#" class="S-Héb-Lig-Img">
+
+              <div class="S-Héb-Lig-Img-Cat">
+                <img class="S-Héb-Lig01-Img02-Jpg"
+                  src="100-Images/hebergements/4-small/222-Hôtel-du-port.jpg"
+                  alt="chambre de l'Hôtel du port">
+              </div>
+
+              <div class="S-Héb-Img-bas">
+                <h4 class=S-Héb-Lig-Img-Tit>Hôtel du port</h4>
+                <h5 class="S-Héb-Lig-Img-Prx">Nuit à partir de 52€</h5>
+
+                <div class="S-Héb-Lig-Img-Ico">
+                  <i class="S-Héb-IcoBlue fa-solid fa-star"></i>
+                  <i class="S-Héb-IcoBlue fa-solid fa-star"></i>
+                  <i class="S-Héb-IcoBlue fa-solid fa-star"></i>
+                  <i class="S-Héb-IcoBlue fa-solid fa-star"></i>
+                  <i class="S-Héb-IcoBlue fa-solid fa-star"></i>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="S-Héb-Lig-Img">
+
+              <div class="S-Héb-Lig-Img-Cat">
+                <img class="S-Héb-Lig01-Img03-Jpg"
+                  src="100-Images/hebergements/4-small/223-Hôtel-les-mouettes.jpg"
+                  alt="chambre de l'Hôtel les mouettes">
+              </div>
+
+              <div class="S-Héb-Img-bas">
+                <h4 class="S-Héb-Lig-Img-Tit">Hôtel les mouettes</h4>
+                <h5 class="S-Héb-Lig-Img-Prx">Nuit à partir de 76€</h5>
+
+                <div class="S-Héb-Lig-Img-Ico">
+                  <i class="S-Héb-IcoBlue fa-solid fa-star"></i>
+                  <i class="S-Héb-IcoBlue fa-solid fa-star"></i>
+                  <i class="S-Héb-IcoBlue fa-solid fa-star"></i>
+                  <i class="S-Héb-IcoBlue fa-solid fa-star"></i>
+                  <i class="S-Héb-IcoGrey fa-solid fa-star"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="S-Héb-Lig02">
+
+            <a href="#" class="S-Héb-Lig-Img">
+
+              <div class="S-Héb-Lig-Img-Cat">
+                <img class="S-Héb-Lig02-Img01-Jpg"
+                  src="100-Images/hebergements/4-small/231-Hôtel-de-la-mer.jpg"
+                  alt="chambre de l'Hôtel de la mer">
+              </div>
+
+              <div class="S-Héb-Img-bas">
+                <h4 class=S-Héb-Lig-Img-Tit>Hôtel de la mer</h4>
+                <h5 class="S-Héb-Lig-Img-Prx">Nuit à partir de 46€</h5>
+
+                <div class="S-Héb-Lig-Img-Ico">
+                  <i class="S-Héb-IcoBlue fa-solid fa-star"></i>
+                  <i class="S-Héb-IcoBlue fa-solid fa-star"></i>
+                  <i class="S-Héb-IcoBlue fa-solid fa-star"></i>
+                  <i class="S-Héb-IcoGrey fa-solid fa-star"></i>
+                  <i class="S-Héb-IcoGrey fa-solid fa-star"></i>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="S-Héb-Lig-Img">
+              <div class="S-Héb-Lig-Img-Cat">
+                <img class="S-Héb-Lig02-Img02-Jpg"
+                  src="100-Images/hebergements/4-small/232-Auberge-le-panier.jpg"
+                  alt="chambre de l'Auberge Le Panier">
+              </div>
+
+              <div class="S-Héb-Img-bas">
+                <h4 class="S-Héb-Lig-Img-Tit">Auberge Le Panier</h4>
+                <h5 class="S-Héb-Lig-Img-Prx">Nuit à partir de 23€</h5>
+
+                <div class="S-Héb-Lig-Img-Ico">
+                  <i class="S-Héb-IcoBlue fa-solid fa-star"></i>
+                  <i class="S-Héb-IcoBlue fa-solid fa-star"></i>
+                  <i class="S-Héb-IcoBlue fa-solid fa-star"></i>
+                  <i class="S-Héb-IcoBlue fa-solid fa-star"></i>
+                  <i class="S-Héb-IcoGrey fa-solid fa-star"></i>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="S-Héb-Lig-Img">
+              <div class="S-Héb-Lig-Img-Cat">
+                <img class="S-Héb-Lig02-Img03-Jpg"
+                  src="100-Images/hebergements/4-small/233-Hôtel-chez-Amina.jpg"
+                  alt="chambre de l'Hôtel chez Amina">
+              </div>
+
+              <div class="S-Héb-Img-bas">
+                <h4 class="S-Héb-Lig-Img-Tit">Hôtel chez Amina</h4>
+                <h5 class="S-Héb-Lig-Img-Prx">Nuit à partir de 96€</h5>
+
+                <div class="S-Héb-Lig-Img-Ico">
+                  <i class="S-Héb-IcoBlue fa-solid fa-star"></i>
+                  <i class="S-Héb-IcoBlue fa-solid fa-star"></i>
+                  <i class="S-Héb-IcoBlue fa-solid fa-star"></i>
+                  <i class="S-Héb-IcoBlue fa-solid fa-star"></i>
+                  <i class="S-Héb-IcoBlue fa-solid fa-star"></i>
+                </div>
+              </div>
+            </a>
+
+          </div>
+        </div>
+
+        <a class="S-Héb-Plus" href="#">
+          <h5 class="S-Héb-Plus-Tit">Afficher plus ...</h5>
+        </a>
+      </div>
+
+      <!-- Les plus populaires
+        -->
+      <div class="S-Pop">
+
+        <div class="S-Pop-TitIco">
+          <h4 class="S-Pop-Tit">Les plus populaires</h4>
+          <i class="S-Pop-Ico fa-solid fa-star"></i>
+        </div>
+
+        <a href="#" class="S-Pop-Img">
+
+          <div class="S-Pop-Img-Cat">
+            <img class="S-Pop-Img01-Jpg"
+              src="100-Images/hebergements/4-small/242-Hôtel-Le-soleil-du-matin.jpg"
+              alt="chambre de l'Hôtel Le soleil du matin">
+          </div>
+
+          <div class="S-Pop-Img-Droite">
+            <h4 class="S-Pop-Img-Tit">Hôtel Le soleil du matin</h4>
+            <h5 class="S-Pop-Img-Prx">Nuit à partir de 128€</h5>
+
+            <div class="S-Pop-Img-Ico">
+              <i class="S-Pop-IcoBlue fa-solid fa-star"></i>
+              <i class="S-Pop-IcoBlue fa-solid fa-star"></i>
+              <i class="S-Pop-IcoBlue fa-solid fa-star"></i>
+              <i class="S-Pop-IcoBlue fa-solid fa-star"></i>
+              <i class="S-Pop-IcoBlue fa-solid fa-star"></i>
+            </div>
+
+          </div>
+        </a>
+
+        <a href="#" class="S-Pop-Img S-Pop-Img-Margin">
+
+          <div class="S-Pop-Img-Cat S-Pop-Img-Cat-02">
+            <img class="S-Pop-Img02-Jpg"
+              src="100-Images/hebergements/4-small/243-Au-coeur-de-l'eau-Chambres-d'hôtes.jpg"
+              alt="chambre de Au coeur de l'eau Chambres d'hôtes">
+          </div>
+
+          <div class="S-Pop-Img-Droite">
+            <h4 class="S-Pop-Img-Tit">Au coeur de l'eau Chambres d'hôtes</h4>
+            <h5 class="S-Pop-Img-Prx">Nuit à partir de 71€</h5>
+
+            <div class="S-Pop-Img-Ico">
+              <i class="S-Pop-IcoBlue fa-solid fa-star"></i>
+              <i class="S-Pop-IcoBlue fa-solid fa-star"></i>
+              <i class="S-Pop-IcoBlue fa-solid fa-star"></i>
+              <i class="S-Pop-IcoBlue fa-solid fa-star"></i>
+              <i class="S-Pop-IcoGrey fa-solid fa-star"></i>
+            </div>
+
+          </div>
+        </a>
+
+        <a href="#" class="S-Pop-Img S-Pop-Img-Margin">
+
+          <div class="S-Pop-Img-Cat">
+            <img class="S-Pop-Img03-Jpg"
+              src="100-Images/hebergements/4-small/244-Hôtel-Tout-bleu-et-blanc.jpg"
+              alt="chambre de l'Hôtel Tout bleu et Blanc">
+          </div>
+
+          <div class="S-Pop-Img-Droite">
+            <h4 class="S-Pop-Img-Tit">Hôtel Tout bleu et Blanc</h4>
+            <h5 class="S-Pop-Img-Prx">Nuit à partir de 68€</h5>
+
+            <div class="S-Pop-Img-Ico">
+              <i class="S-Pop-IcoBlue fa-solid fa-star"></i>
+              <i class="S-Pop-IcoBlue fa-solid fa-star"></i>
+              <i class="S-Pop-IcoBlue fa-solid fa-star"></i>
+              <i class="S-Pop-IcoBlue fa-solid fa-star"></i>
+              <i class="S-Pop-IcoGrey fa-solid fa-star"></i>
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- Section Activitées
+    -->
+    <section id="S-Act-Ancre" class="S-Act">
+      <h5 class="S-Act-Tit">Activitées à Marseille</h5>
+
+      <div class="S-Act-Int">
+
+        <a href="#" class="S-Act-Col01-Img01">
+          <div class="S-Act-Col01-Img01-Cat">
+            <img class="S-Act-Col01-Img01-Jpg"
+              src="100-Images/activites/4_small/321-Vieux-Port.jpg"
+              alt="Vieux Port">
+          </div>
+
+          <h4 class="S-Act-Col-Img-Tit">Vieux Port</h4>
+
+        </a>
+
+        <div class="S-Act-Col02">
+
+          <a href="#" class="S-Act-Col02-Img01">
+
+            <div class="S-Act-Col02-Img01-Cat">
+              <img class="S-Act-Col02-Img01-Jpg"
+                src="100-Images/activites/4_small/331-Fort-de-Pomègues.jpg"
+                alt="Fort de Pomègues">
+            </div>
+
+            <h4 class="S-Act-Col-Img-Tit">Fort de Pomègues</h4>
+
+          </a>
+
+          <a href="#" class="S-Act-Col02-Img02">
+
+            <div class="S-Act-Col02-Img02-Cat">
+              <img class="S-Act-Col02-Img02-Jpg"
+                src="100-Images/activites/4_small/332-Iles-du-Frioul.jpg"
+                alt="Iles du Friou">
+            </div>
+
+            <h4 class="S-Act-Col-Img-Tit"> Iles du Frioul</h4>
+
+          </a>
+        </div>
+
+        <a href="#" class="S-Act-Col03-Img01">
+
+          <div class="S-Act-Col03-Img01-Cat">
+            <img class="S-Act-Col03-Img01-Jpg"
+              src="100-Images/activites/4_small/341-Parc-National-des-Calanques.jpg"
+              alt="Parc National des Calanques">
+          </div>
+
+          <h4 class="S-Act-Col-Img-Tit">Parc National des Calanques</h4>
+
+        </a>
+
+        <div class="S-Act-Col04">
+          <a href="#" class="S-Act-Col04-Img01">
+
+            <div class="S-Act-Col04-Img01-Cat">
+              <img class="S-Act-Col04-Img01-Jpg"
+                src="100-Images/activites/4_small/351-Notre-Dame-de-la-Garde.jpg"
+                alt="Notre Dame de la Garde">
+            </div>
+
+            <h4 class="S-Act-Col-Img-Tit">Notre Dame de la Garde</h4>
+
+          </a>
+
+          <a href="#" class="S-Act-Col04-Img02">
+
+            <div class="S-Act-Col04-Img02-Cat">
+              <img class="S-Act-Col04-Img02-Jpg"
+                src="100-Images/activites/4_small/352-Parc-Longchamp.jpg"
+                alt="Parc Longchamp">
+            </div>
+
+            <h4 class="S-Act-Col-Img-Tit">Parc Longchamp</h4>
+          </a>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer 
+  -->
+  <footer class="F-Footer">
+
+    <div class="F-Pro">
+      <h3>A propos</h3>
+
+      <a class="F-lien" href="#">
+        <h5>Fonctionnement du site</h5>
+      </a>
+
+      <a class="F-lien" href="#">
+        <h5>Condition général de vente</h5>
+      </a>
+
+      <a class="F-lien" href="#">
+        <h5>Données et confidentialité</h5>
+      </a>
+    </div>
+
+    <div class="F-Nos">
+      <h3>Nos Hébergement</h3>
+
+      <a class="F-lien" href="#">
+        <h5>Charte Qualité</h5>
+      </a>
+
+      <a class="F-lien" href="#">
+        <h5>Soumettre votre Hotel</h5>
+      </a>
+    </div>
+
+    <div class="F-Ass">
+      <h3>Asistance</h3>
+
+      <a class="F-lien" href="#">
+        <h5>Centre d'aide</h5>
+      </a>
+
+      <a class="F-lien" href="#">
+        <h5>Nous contacter</h5>
+      </a>
+    </div>
+
+  </footer>
+</body>
+
+</html>

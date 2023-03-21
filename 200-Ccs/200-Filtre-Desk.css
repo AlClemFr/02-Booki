@@ -1,0 +1,520 @@
+/*
+  Filtres - Desktop.
+*/
+
+.S-Filt {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+
+  width: 97%;
+  font-size: 1.0em;
+
+  padding-top: 0px;
+  padding-left: 1.5%;
+
+  margin: 0px auto;
+}
+
+.S-Filt-Tit {
+  width: 100%;
+
+  font-weight: bolder;
+  font-size: 1.2em;
+}
+
+.S-Filt-Tex {
+  font-weight: 400;
+  font-size: 3.3mm;
+  width: 500px;
+
+  font-size: 0.9em;
+  margin-top: 10px;
+}
+
+.S-Filt-Rech {
+  display: flex;
+  box-sizing: border-box;
+
+  width: 422px;
+  height: 51px;
+
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.S-Filt-Rech-Ico {
+  display: flex;
+  box-sizing: border-box;
+
+  width: 52px;
+  height: 51px;
+
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+
+  background-color: rgba(136, 136, 136, 0.331);
+
+  padding: 0.8em 1.0em;
+
+  font-size: 1.2em;
+
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.S-Filt-Rech-Box {
+  display: block;
+  box-sizing: border-box;
+
+  width: 234px;
+  height: 51px;
+
+  border: 1px solid rgba(136, 136, 136, 0.331);
+
+  padding-left: 18px;
+}
+
+.S-Filt-Rech-Inp {
+  display: block;
+  box-sizing: border-box;
+
+  font-weight: bolder;
+  font-size: 112%;
+
+  width: 210px;
+  height: 46px;
+
+  /*efface le contour du champs*/
+  border: none;
+
+  margin-bottom: 40px;
+  margin-left: -5px;
+}
+
+.S-Filt-Rech-Inp:focus {
+  /*suppresion du cadre actif du input*/
+  outline: none;
+}
+
+.S-Filt-Rech-Tex {
+  display: block;
+  box-sizing: border-box;
+
+  color: white;
+  font-weight: 600;
+
+  /*j- modif   */
+  text-align: center;
+
+  width: 134px;
+  height: 51px;
+
+  /*conteneur Recherche*/
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+  background-color: #0065FC;
+
+  padding: 1.0em 1.0em;
+}
+
+.S-Filt-Rech-Lien {
+  /*suppression du surlignement*/
+  text-decoration: none;
+}
+
+.S-Filt-Rech-Tex:hover,
+.S-Filt-Rech-Loup:hover {
+  background-color: #DEEBFF;
+  color: blue;
+}
+
+.S-Filt-Rech-Tex:active,
+.S-Filt-Rech-Loup:active {
+  background-color: #FFCC66;
+}
+
+
+
+.S-Filt-Filt {
+  display: flex;
+  justify-content: space-between;
+
+  font-weight: bolder;
+
+  width: 100%;
+
+  height: 50px;
+
+  margin-left: 8px;
+}
+
+.S-Filt-Filt-Tex {
+  font-weight: bolder;
+  font-size: 110%;
+
+  width: 58px;
+  height: 50px;
+
+  margin-top: 16px;
+  margin-left: -8px;
+}
+
+/*j- rajout  */
+.S-Filt-Filt-Total {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+
+  /* justify-content: space-between; */
+
+  width: 100%;
+  /* height: 50px; */
+
+  /* text-align: center; */
+
+  margin-left: 108px;
+}
+
+
+.S-Filt-Filt-EcoFam {
+  display: flex;
+  justify-content: space-between;
+
+  width: 250px;
+  height: 50px;
+
+  text-align: center;
+
+  margin-left: -50px;
+  margin-left: 0px;
+
+}
+
+.S-Filt-Filt-Eco {
+  display: inline-block;
+  box-sizing: border-box;
+
+  /* width: 194px; */
+  /* width: 190px; */
+  /* j- Teste */
+  width: 75%;
+
+
+  height: 50px;
+
+  border-radius: 50px;
+  border: 2px solid rgba(136, 136, 136, 0.331);
+
+  color: #8ebf42;
+  font-size: 1em;
+
+  margin-left: -83px;
+}
+
+.S-Filt-Filt-Eco-Ico {
+  display: inline-block;
+  box-sizing: border-box;
+
+  width: 51px;
+  height: 51px;
+
+  text-align: center;
+
+  border-radius: 50px;
+  border: 2px solid #DEEBFF;
+
+  /*couleur fond cercle Icone bleu clair DEEBFF*/
+  background-color: #DEEBFF;
+
+  padding: 0.6em 0.6em;
+
+  /*couleur Icone bleu foncé*/
+  color: #0065FC;
+
+  font-size: 1.2em;
+
+  margin-top: -2px;
+
+  /* margin-left: -14px; */
+  /*j- modif dom */
+  margin-left: -20%;
+}
+
+.S-Filt-Filt-Eco-Tex {
+  display: inline-block;
+
+  border-radius: 40px;
+  padding: 0.0em 0.0em;
+
+  color: black;
+
+  font-size: 1.0em;
+
+  margin-left: -0px;
+}
+
+.S-Filt-Filt-Fam {
+  display: inline-block;
+  box-sizing: border-box;
+
+  width: 128px;
+  height: 50px;
+
+  border-radius: 50px;
+  border: 2px solid rgba(136, 136, 136, 0.331);
+
+  color: #8ebf42;
+  font-size: 1em;
+
+  margin-left: 20px;
+}
+
+.S-Filt-Filt-Fam-Ico {
+  display: inline-block;
+  box-sizing: border-box;
+
+  width: 51px;
+  height: 51px;
+  text-align: center;
+
+  border-radius: 50px;
+  border: 2px solid #DEEBFF;
+
+  /*couleur fond cercle Icone bleu clair DEEBFF*/
+  background-color: #DEEBFF;
+
+  padding: 0.6em 0.6em;
+
+  /*couleur Icone bleu foncé*/
+  color: #0065FC;
+
+  /*agrandissement & réduction*/
+  font-size: 1.2em;
+
+  margin-left: -20px;
+
+  margin-top: -3px;
+}
+
+.S-Filt-Filt-Fam-Tex {
+  display: inline-block;
+
+  border-radius: 40px;
+  padding: 0.0em 0.0em;
+
+  color: black;
+
+  font-size: 1.0em;
+
+  margin-left: 0px;
+}
+
+.S-Filt-Filt-RomAni {
+  display: flex;
+  box-sizing: border-box;
+
+  /* margin-left: -130px; */
+  margin-left: 14px;
+
+
+}
+
+.S-Filt-Filt-Rom {
+  display: inline-block;
+  box-sizing: border-box;
+
+  width: 178px;
+  height: 50px;
+
+  border-radius: 50px;
+  border: 2px solid rgba(136, 136, 136, 0.331);
+
+  color: #8ebf42;
+  font-size: 1em;
+
+  margin-left: 0px;
+}
+
+.S-Filt-Filt-Rom-Ico {
+  display: inline-block;
+  box-sizing: border-box;
+
+  width: 51px;
+  height: 51px;
+  text-align: center;
+
+  border-radius: 50px;
+  border: 2px solid #DEEBFF;
+
+  /*couleur fond cercle Icone bleu clair DEEBFF*/
+  background-color: #DEEBFF;
+
+  padding: 0.6em 0.6em;
+
+  /*couleur Icone bleu foncé*/
+  color: #0065FC;
+
+  /*agrandissement & réduction*/
+  font-size: 1.2em;
+
+  margin-top: -2.5px;
+
+  margin-left: -3.5px;
+}
+
+.S-Filt-Filt-Rom-Tex {
+  display: inline-block;
+
+  border-radius: 40px;
+  padding: 0.0em 0.0em;
+
+  color: black;
+
+  font-size: 1.0em;
+  margin-left: 0px;
+}
+
+.S-Filt-Filt-Ani {
+  display: inline-block;
+  box-sizing: border-box;
+
+  /* width: 228px; */
+  /*j-modif  */
+  width: 55%;
+
+  height: 50px;
+
+  border-radius: 50px;
+  border: 2px solid rgba(136, 136, 136, 0.331);
+
+  color: #8ebf42;
+  font-size: 1em;
+
+  /* margin-left: 25px; */
+  /* j- modif */
+  margin-left: 20px;
+
+}
+
+.S-Filt-Filt-Ani-Ico {
+  display: inline-block;
+  box-sizing: border-box;
+
+  width: 51px;
+  height: 51px;
+  text-align: center;
+
+  border-radius: 50px;
+  border: 2px solid #DEEBFF;
+
+  /*couleur fond cercle Icone bleu clair DEEBFF*/
+  background-color: #DEEBFF;
+
+  padding: 0.6em 0.6em;
+
+  /*couleur Icone bleu foncé*/
+  color: #0065FC;
+
+  /*agrandissement & réduction*/
+  font-size: 1.2em;
+
+  margin-left: -3.5px;
+  margin-top: -2.5px;
+}
+
+.S-Filt-Filt-Ani-Tex {
+  display: inline-block;
+
+  border-radius: 40px;
+  padding: 0.0em 0.0em;
+
+  color: black;
+
+  font-size: 1.0em;
+  margin-left: 0px;
+}
+
+/* Couleur fond Texte au survol 
+*/
+.S-Filt-Filt-Eco:hover,
+.S-Filt-Filt-Fam:hover,
+.S-Filt-Filt-Rom:hover,
+.S-Filt-Filt-Ani:hover {
+  background-color: #DEEBFF;
+  border: 2px solid #0065FC;
+}
+
+.S-Filt-Filt-Eco-Lien,
+.S-Filt-Filt-Fam-Lien,
+.S-Filt-Filt-Rom-Lien,
+.S-Filt-Filt-Ani-Lien {
+  /*permet de supprimer le surlignement hypertexte*/
+  text-decoration: none;
+}
+
+.S-Filt-Info {
+  display: inline-flex;
+  box-sizing: border-box;
+
+  width: 70%;
+  font-size: 1.0em;
+
+  color: black;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.S-Filt-Info-Ico {
+  display: inline-block;
+  box-sizing: border-box;
+
+  width: 20px;
+  height: 20px;
+  text-align: center;
+
+  background-color: white;
+
+  /*couleur Icone bleu foncé*/
+  color: #0065FC;
+
+  border-radius: 50px;
+  border: 1px solid rgba(136, 136, 136, 0.331);
+
+  /*agrandissement & réduction*/
+  font-size: 0.8em;
+
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-top: 2px;
+
+  padding-top: 1px;
+}
+
+.S-Filt-Info-Tex {
+  border-radius: 40px;
+
+  color: black;
+
+  font-size: 1.0em;
+
+  /* on concerve*/
+  font-weight: 400;
+  font-size: 3.3mm;
+
+  margin-left: 7px;
+
+  padding: 0.5em 0.5em;
+}
+
+/* Ecran PC */
+@media all and (min-width: 992px) {
+  .S-Filt-Rech-Loup {
+    display: none;
+  }
+}
